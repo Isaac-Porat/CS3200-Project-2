@@ -1,3 +1,5 @@
+// I used ChatGPT to help me format the queries and brainstorm creative ideas
+
 const { MongoClient, ServerApiVersion } = require("mongodb");
 
 const uri = "mongodb://localhost:27017/";
