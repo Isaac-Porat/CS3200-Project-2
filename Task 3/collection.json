@@ -1,0 +1,38 @@
+{
+  "_id": "",
+  "name": "",
+  "password": "",
+  "email": "",
+  "search": [{
+    "criteriaId": "",
+    "shoeName": "",
+    "sizeOfShoe": "",
+    "maxPrice": "",
+    "minPrice": "",
+    "zipCode": "",
+    "qualityIndicator": "",
+    "searchMetrics": {
+      "metricsId": "",
+      "numberOfResults": "",
+      "searchDate": ""
+    }
+  }],
+  "lisings": [{
+    "listingId": "",
+    "title": "",
+    "sizeOfShoe": "",
+    "priceOfShoe": "",
+    "conditionOfShoe": "",
+    "url": "",
+    "scrapeDate": "",
+    "listingStatus": {
+      "statusId": "",
+      "status": "",
+      "statusDate": ""
+    }
+  }],
+  "potentialInventory": [{
+    "potentialInventoryId": "",
+    "listingId": ""
+  }]
+}

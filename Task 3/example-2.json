@@ -1,0 +1,38 @@
+{
+  "_id": "user456",
+  "name": "Jane Smith",
+  "password": "securePass456",
+  "email": "janesmith@example.com",
+  "search": [{
+    "criteriaId": "criteria2",
+    "shoeName": "Yeezy Boost 350",
+    "sizeOfShoe": "8",
+    "maxPrice": "300",
+    "minPrice": "150",
+    "zipCode": "10001",
+    "qualityIndicator": "85", // int 1-100
+    "searchMetrics": {
+      "metricsId": "metric2",
+      "numberOfResults": "15",
+      "searchDate": "2021-08-15"
+    }
+  }],
+  "lisings": [{
+    "listingId": "listing2",
+    "title": "Yeezy Boost 350 V2 Cream White",
+    "sizeOfShoe": "8",
+    "priceOfShoe": "280",
+    "conditionOfShoe": "90", // int 1-100
+    "url": "https://example.com/listing/yeezy-boost-350-v2-cream-white",
+    "scrapeDate": "2021-08-14",
+    "listingStatus": {
+      "statusId": "status2",
+      "status": "available",
+      "statusDate": "2021-08-15"
+    }
+  }],
+  "potentialInventory": [{
+    "potentialInventoryId": "inventory2",
+    "listingId": "listing2"
+  }]
+}

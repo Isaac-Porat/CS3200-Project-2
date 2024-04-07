@@ -1,0 +1,38 @@
+{
+  "_id": "user123",
+  "name": "John Doe",
+  "password": "password123",
+  "email": "johndoe@example.com",
+  "search": [{
+    "criteriaId": "criteria1",
+    "shoeName": "Air Jordan 1",
+    "sizeOfShoe": "9",
+    "maxPrice": "500",
+    "minPrice": "200",
+    "zipCode": "90210",
+    "qualityIndicator": "75", // int 1-100
+    "searchMetrics": {
+      "metricsId": "metric1",
+      "numberOfResults": "10",
+      "searchDate": "2021-07-21"
+    }
+  }],
+  "lisings": [{
+    "listingId": "listing1",
+    "title": "Air Jordan 1 Retro High",
+    "sizeOfShoe": "9",
+    "priceOfShoe": "450",
+    "conditionOfShoe": "80", // int 1-100
+    "url": "https://example.com/listing/air-jordan-1-retro-high",
+    "scrapeDate": "2021-07-20",
+    "listingStatus": {
+      "statusId": "status1",
+      "status": "available",
+      "statusDate": "2021-07-21"
+    }
+  }],
+  "potentialInventory": [{
+    "potentialInventoryId": "inventory1",
+    "listingId": "listing1"
+  }]
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "user789",
+  "name": "Alex Johnson",
+  "password": "uniquePass789",
+  "email": "alexjohnson@example.com",
+  "search": [{
+    "criteriaId": "criteria3",
+    "shoeName": "Nike Air Max 97",
+    "sizeOfShoe": "10",
+    "maxPrice": "250",
+    "minPrice": "100",
+    "zipCode": "90001",
+    "qualityIndicator": "80", // int 1-100
+    "searchMetrics": {
+      "metricsId": "metric3",
+      "numberOfResults": "20",
+      "searchDate": "2021-09-10"
+    }
+  }],
+  "lisings": [{
+    "listingId": "listing3",
+    "title": "Nike Air Max 97 Silver Bullet",
+    "sizeOfShoe": "10",
+    "priceOfShoe": "230",
+    "conditionOfShoe": "95", // int 1-100
+    "url": "https://example.com/listing/nike-air-max-97-silver-bullet",
+    "scrapeDate": "2021-09-09",
+    "listingStatus": {
+      "statusId": "status3",
+      "status": "available",
+      "statusDate": "2021-09-10"
+    }
+  }],
+  "potentialInventory": [{
+    "potentialInventoryId": "inventory3",
+    "listingId": "listing3"
+  }]
+}
