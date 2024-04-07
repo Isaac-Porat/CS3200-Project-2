@@ -156,7 +156,7 @@
       "scrapeDate": "2021-08-07",
       "listingStatus": {
         "statusId": "status10",
-        "status": "available",
+        "status": "unavailable",
         "statusDate": "2021-08-08"
       }
     }
