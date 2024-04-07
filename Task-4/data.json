@@ -1,0 +1,206 @@
+{
+  "_id": "user123",
+  "name": "John Doe",
+  "password": "password123",
+  "email": "johndoe@example.com",
+  "search": [
+    {
+      "criteriaId": "criteria1",
+      "shoeName": "Air Jordan 1",
+      "sizeOfShoe": "9",
+      "maxPrice": "500",
+      "minPrice": "200",
+      "zipCode": "90210",
+      "qualityIndicator": "75",
+      "searchMetrics": {
+        "metricsId": "metric1",
+        "numberOfResults": "10",
+        "searchDate": "2021-07-21"
+      }
+    }
+  ],
+  "lisings": [
+    {
+      "listingId": "listing1",
+      "title": "Air Jordan 1 Retro High",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "450",
+      "conditionOfShoe": "80",
+      "url": "https://example.com/listing/air-jordan-1-retro-high",
+      "scrapeDate": "2021-07-20",
+      "listingStatus": {
+        "statusId": "status1",
+        "status": "available",
+        "statusDate": "2021-07-21"
+      }
+    },
+    {
+      "listingId": "listing2",
+      "title": "Air Jordan 1 Mid SE",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "300",
+      "conditionOfShoe": "85",
+      "url": "https://example.com/listing/air-jordan-1-mid-se",
+      "scrapeDate": "2021-07-22",
+      "listingStatus": {
+        "statusId": "status2",
+        "status": "available",
+        "statusDate": "2021-07-23"
+      }
+    },
+    {
+      "listingId": "listing3",
+      "title": "Air Jordan 1 Low",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "250",
+      "conditionOfShoe": "90",
+      "url": "https://example.com/listing/air-jordan-1-low",
+      "scrapeDate": "2021-07-24",
+      "listingStatus": {
+        "statusId": "status3",
+        "status": "available",
+        "statusDate": "2021-07-25"
+      }
+    },
+    {
+      "listingId": "listing4",
+      "title": "Air Jordan 1 Retro High OG",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "475",
+      "conditionOfShoe": "95",
+      "url": "https://example.com/listing/air-jordan-1-retro-high-og",
+      "scrapeDate": "2021-07-26",
+      "listingStatus": {
+        "statusId": "status4",
+        "status": "available",
+        "statusDate": "2021-07-27"
+      }
+    },
+    {
+      "listingId": "listing5",
+      "title": "Air Jordan 1 Zoom Air CMFT",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "280",
+      "conditionOfShoe": "88",
+      "url": "https://example.com/listing/air-jordan-1-zoom-air-cmft",
+      "scrapeDate": "2021-07-28",
+      "listingStatus": {
+        "statusId": "status5",
+        "status": "available",
+        "statusDate": "2021-07-29"
+      }
+    },
+    {
+      "listingId": "listing6",
+      "title": "Air Jordan 1 High Zoom",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "320",
+      "conditionOfShoe": "92",
+      "url": "https://example.com/listing/air-jordan-1-high-zoom",
+      "scrapeDate": "2021-07-30",
+      "listingStatus": {
+        "statusId": "status6",
+        "status": "available",
+        "statusDate": "2021-07-31"
+      }
+    },
+    {
+      "listingId": "listing7",
+      "title": "Air Jordan 1 Retro High Flyknit",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "350",
+      "conditionOfShoe": "80",
+      "url": "https://example.com/listing/air-jordan-1-retro-high-flyknit",
+      "scrapeDate": "2021-08-01",
+      "listingStatus": {
+        "statusId": "status7",
+        "status": "available",
+        "statusDate": "2021-08-02"
+      }
+    },
+    {
+      "listingId": "listing8",
+      "title": "Air Jordan 1 Retro High Dior",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "2000",
+      "conditionOfShoe": "100",
+      "url": "https://example.com/listing/air-jordan-1-retro-high-dior",
+      "scrapeDate": "2021-08-03",
+      "listingStatus": {
+        "statusId": "status8",
+        "status": "available",
+        "statusDate": "2021-08-04"
+      }
+    },
+    {
+      "listingId": "listing9",
+      "title": "Air Jordan 1 Pine Green",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "400",
+      "conditionOfShoe": "85",
+      "url": "https://example.com/listing/air-jordan-1-pine-green",
+      "scrapeDate": "2021-08-05",
+      "listingStatus": {
+        "statusId": "status9",
+        "status": "available",
+        "statusDate": "2021-08-06"
+      }
+    },
+    {
+      "listingId": "listing10",
+      "title": "Air Jordan 1 Retro High Union Los Angeles",
+      "sizeOfShoe": "9",
+      "priceOfShoe": "1500",
+      "conditionOfShoe": "90",
+      "url": "https://example.com/listing/air-jordan-1-retro-high-union-los-angeles",
+      "scrapeDate": "2021-08-07",
+      "listingStatus": {
+        "statusId": "status10",
+        "status": "available",
+        "statusDate": "2021-08-08"
+      }
+    }
+  ],
+  "potentialInventory": [
+    {
+      "potentialInventoryId": "inventory1",
+      "listingId": "listing1"
+    },
+    {
+      "potentialInventoryId": "inventory2",
+      "listingId": "listing2"
+    },
+    {
+      "potentialInventoryId": "inventory3",
+      "listingId": "listing3"
+    },
+    {
+      "potentialInventoryId": "inventory4",
+      "listingId": "listing4"
+    },
+    {
+      "potentialInventoryId": "inventory5",
+      "listingId": "listing5"
+    },
+    {
+      "potentialInventoryId": "inventory6",
+      "listingId": "listing6"
+    },
+    {
+      "potentialInventoryId": "inventory7",
+      "listingId": "listing7"
+    },
+    {
+      "potentialInventoryId": "inventory8",
+      "listingId": "listing8"
+    },
+    {
+      "potentialInventoryId": "inventory9",
+      "listingId": "listing9"
+    },
+    {
+      "potentialInventoryId": "inventory10",
+      "listingId": "listing10"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+How to initialize the dump file into your MongoDB collection
+
+1. Activate MongoDB community using (for mac os)'brew services start mongodb-community@7.0'
+2. Open MongoDB compass and using localhost:27017, start the server
+3. Create a new collection under a database
+4. Open the terminal
+5. Run this commmand: 'mongorestore --db <database_name> --collection <collection_name> <path_to_bson_file>'
+6. If you go to the MongoDB compass, under your collection name, you should see the data initialized
